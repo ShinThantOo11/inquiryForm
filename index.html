@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <section class="inquiry-form-container">
+        <div class="inquiry-form">
+            <h2>Inquiry Form</h2>
+            <span class="text">
+                To contact us by phone, please dial +81 03-6873-6772. To contact us by email, please use the contact form.
+            </span>
+            <div class="form-container">
+                <form action="">
+                    <div class="group">
+                        <label for="name" class="">Name <span class="required">*</span></label>
+                        <input type="text" id="name" placeholder="Enter your full name" required class="w-100">
+                    </div>
+                    <div class="group">
+                        <label for="email" class="">Email <span class="required">*</span></label>
+                        <input type="email" id="email" placeholder="Enter your email" required class="w-100">
+                    </div>
+                    <div class="group">
+                        <label for="number" class="">Phone Number<span class="required">*</span></label>
+                        <input type="number" id="number" placeholder="Enter your phone number" required class="w-100">
+                    </div>
+                    <div class="group">
+                        <label for="select">Details<span class="required">*</span></label>
+                        <select name="" id="select" required class="w-100">
+                            <option value="0">Service</option>
+                            <option value="1">Payment</option>
+                            <option value="2">want to be teacher?</option>
+                            <option value="3">want to be admin?</option>
+                            <option value="4">Consultation</option>
+                            <option value="5">User Guide</option>
+                            <option value="6">Others</option>
+                        </select>
+                    </div>
+                    <div class="group">
+                        <label for="textarea">Description<span class="required">*</span></label>
+                        <textarea name="" id="textarea" rows="10" placeholder="Please fill in information you want to know" required class="w-100"></textarea>
+                    </div>
+                    <div class="group">
+                        <input type="checkbox" required>
+                        <span>Please check the box after confirming the above transmission contents.</span>
+                    </div>
+                    <div class="submit-box">
+                        <input type="submit" value="Contact Us">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
