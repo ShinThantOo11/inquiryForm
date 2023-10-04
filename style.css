@@ -46,6 +46,10 @@ form input,form textarea, form select{
 .inquiry-form .w-100{
     width: 100%;
 }
+form .required{
+    color: red;
+    margin-left: 5px;
+}
 form textarea{
     resize: vertical;
 }
@@ -59,6 +63,10 @@ input[type='submit']{
     width: 120px;
     padding: 10px 0px;
     cursor: pointer;
+    transition: 0.3s ease;
+}
+input[type='submit']:hover{
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 @media (max-width:768px) {
